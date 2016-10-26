@@ -9,6 +9,7 @@ namespace Design_Patterns
     {
         public static void Main(string[] args)
         {
+            string ss = "";
         }
     }
 }
