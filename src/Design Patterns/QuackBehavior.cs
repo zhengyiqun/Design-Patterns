@@ -1,3 +1,5 @@
+using static System.Console;
+
 
 namespace Design_Patterns.Factory
 {
@@ -14,6 +16,7 @@ namespace Design_Patterns.Factory
         public void quack()
         {
 
+            WriteLine("I can quack");
         }
     }
 

@@ -1,4 +1,4 @@
-
+using static System.Console;
 
 namespace Design_Patterns.Factory
 {
@@ -16,7 +16,7 @@ namespace Design_Patterns.Factory
         public void fly()
         {
 
-
+            WriteLine("I can fly");
         }
     }
 
@@ -27,7 +27,7 @@ namespace Design_Patterns.Factory
         public void fly()
         {
 
-
+            WriteLine("I can`t fly");
         }
     }
 }

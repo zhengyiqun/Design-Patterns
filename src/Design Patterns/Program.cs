@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Design_Patterns.Factory;
 
 namespace Design_Patterns
 {
@@ -9,7 +10,11 @@ namespace Design_Patterns
     {
         public static void Main(string[] args)
         {
-            string ss = "";
+            Duck test = new MallardDuck();
+
+            test.performFly();
+
+            System.Console.ReadLine();
         }
     }
 }
