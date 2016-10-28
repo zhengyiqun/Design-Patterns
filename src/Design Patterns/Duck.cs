@@ -33,4 +33,17 @@ namespace Design_Patterns.Factory
         }
         
     }
+
+    //木头鸭子类，继承抽象鸭子类
+    public class WoodDuck : Duck
+    {
+
+        public WoodDuck()
+        {
+
+            flyBehavior = new FlyNoWay();
+
+            quackBehavior = new MuteQuack();
+        }
+    }
 }
