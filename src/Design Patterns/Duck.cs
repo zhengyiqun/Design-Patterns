@@ -1,7 +1,5 @@
 
 
-using System;
-
 namespace Design_Patterns.Factory
 {
     public abstract class Duck
@@ -25,8 +23,6 @@ namespace Design_Patterns.Factory
 
             quackBehavior = new Quack();
         }
-
-
         
     }
 }
