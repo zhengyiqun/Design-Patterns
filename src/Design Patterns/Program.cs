@@ -9,6 +9,7 @@ namespace Design_Patterns
             Duck test = new MallardDuck();
 
             test.performFly();
+            test.performQuack();
 
             System.Console.ReadLine();
         }
