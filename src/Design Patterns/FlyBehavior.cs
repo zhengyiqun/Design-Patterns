@@ -6,7 +6,6 @@ namespace Design_Patterns.Factory
     public interface FlyBehavior
     {
         void fly();
-
     }
 
     //鸭子可以飞的实现类，实现鸭子飞行能力的接口类
