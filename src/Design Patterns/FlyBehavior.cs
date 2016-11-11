@@ -11,7 +11,6 @@ namespace Design_Patterns.Factory
     //鸭子可以飞的实现类，实现鸭子飞行能力的接口类
     public class FlyWithWings : FlyBehavior
     {
-
         public void fly()
         {
 
